@@ -1,0 +1,11 @@
+.App {
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: #03A9F4;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}

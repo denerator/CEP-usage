@@ -1,0 +1,24 @@
+{
+  "name": "my-cep-extension",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "create-cep-extension-scripts": "1.0.0-beta.29",
+    "flow-bin": "^0.100.0"
+  },
+  "scripts": {
+    "start": "create-cep-extension-scripts start",
+    "build": "create-cep-extension-scripts build",
+    "test": "create-cep-extension-scripts test --env=jsdom",
+    "eject": "create-cep-extension-scripts eject",
+    "archive": "create-cep-extension-scripts archive"
+  }
+}
